@@ -552,3 +552,16 @@ a.dark img:hover{
 #mainNav {
   font-weight: normal;
 }
+
+/* Mobile styles */
+@media (min-width: 768px) {
+  .masthead h1, .masthead h2 {
+    text-align:center !important;
+  }
+}
+@media (max-width: 575.98px) {
+  .masthead h1, .masthead h2 {
+    text-align:center !important;
+    font-size: 2em;
+  }
+}
